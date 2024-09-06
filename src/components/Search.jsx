@@ -12,11 +12,10 @@ const Search = ({ setQuery }) => {
     return (
         <Grid column = {2} textAlign = "center" className = "search-box">
             <Grid.Column>
-                <h2 className = "search-heading">Search Recipes with <span style = {{ color: "orange" }}>Forkify</span>!</h2>
-                <h4>To search using multiple key words, seperate each word with a comma (,).</h4>
+                <h2 className = "search-heading">Search For Your <span style = {{ color: "orange" }}>Favorite</span> Recipes!</h2>
                 <Form onSubmit = {onFormSubmit}>
                     <Input 
-                        placeholder = "e.g. sushi, pizza, smoothie"
+                        placeholder = "e.g. sushi"
                         action = {{ icon: "search", color: "orange" }}
                         onChange={(e) => setValue(e.target.value)}
                         value = {value}

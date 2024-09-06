@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
 
     return (
-        <Header title = "Check out our recipes!" bgClass = "bg-image">
+        <Header title = "Learn how to cook your next meal!" bgClass = "bg-image">
             <Button 
                 content = "Search"
                 color = "orange"
