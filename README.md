@@ -1,7 +1,7 @@
 # Recipe Search
 
 ## About the Project
-This project uses the [Forkify](https://forkify-api.herokuapp.com/) API to display a list of recipes based on a user search query. 
+This project uses [React](https://react.dev/), [semantic-ui](https://react.semantic-ui.com/), and the [Forkify](https://forkify-api.herokuapp.com/) API to display a list of recipes based on a user search query. 
 
 ### Nav Bar
 The navigation bar at the top of every page allows the user to redirect themselves to either the home page or recipe page. Pressing the logo is equivalent to the home page.
