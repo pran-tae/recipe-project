@@ -1,0 +1,37 @@
+.bg-image {
+  position: relative;
+  background: linear-gradient(rgba(8, 8, 8,  0.3), rgba(8, 8, 8,  0.3)), url('https://www.thespruce.com/thmb/S1aye-s9z6VRA58-V8oRLSQwKCc=/5100x0/filters:no_upscale():max_bytes(150000):strip_icc()/SPR-luxury-kitchens-5211364-hero-688d716970544978bc12abdf17ce6f83.jpg');
+  min-height: 100vh; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-content {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-title {
+  text-transform: uppercase;
+  color: chocolate;
+  font-size: 80px;
+  margin-bottom: 32px; 
+}
+
+.search-box {
+  padding-top: 100px !important;
+  padding-bottom: 20px !important;
+}
+
+.search-heading {
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+.details-page-content {
+  padding-top: 100px !important;
+}
